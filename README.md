@@ -1,6 +1,6 @@
 # Claude-Inspired Editorial Portfolio
 
-A highly polished, literary-style developer portfolio website built for **Vishwas Srivastava** (Data Analyst & Operations Engineer). The interface translates the signature warm, humanist, and editorial design vocabulary of Anthropic's Claude marketing website into a professional developer showcase.
+A highly polished, literary-style developer portfolio website built for **Vishwas Srivastava** (Data Analyst & Operations Engineer). The interface translates the signature warm,humanist, and editorial design vocabulary of Anthropic's Claude marketing website into a professional developer showcase.
 
 ---
 
