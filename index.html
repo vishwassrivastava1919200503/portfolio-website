@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vishwas Srivastava | Data Analyst & Operations Engineer</title>
+  <meta name="description" content="Portfolio of Vishwas Srivastava, detail-oriented Data Analyst and B.Tech student at NIT Jalandhar. Specialized in Power BI, SQL, Python, and AI evaluation methodologies.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Navigation -->
+  <nav class="top-nav" id="top-nav">
+    <div class="container flex-between">
+      <a href="#home" class="logo-container">
+        <!-- SVG Anthropic Radial Spike Mark -->
+        <svg class="spike-mark" viewBox="0 0 24 24">
+          <path d="M12 2v20M2 12h20M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="logo-text">Vishwas Srivastava</span>
+      </a>
+      
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link-item active">Home</a></li>
+        <li><a href="#about" class="nav-link-item">About</a></li>
+        <li><a href="#capabilities" class="nav-link-item">Capabilities</a></li>
+        <li><a href="#projects" class="nav-link-item">Projects</a></li>
+        <li><a href="#experience" class="nav-link-item">Experience</a></li>
+        <li><a href="#contact" class="nav-link-item">Contact</a></li>
+      </ul>
+
+      <div class="top-nav-cta">
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="section bg-canvas" style="padding-top: 120px; padding-bottom: 80px;">
+    <div class="container grid-2">
+      <div class="hero-content">
+        <h1 class="display-xl" style="margin-bottom: var(--spacing-lg);">
+          Analyzing data with operational rigor. Building intelligence with clarity.
+        </h1>
+        <p class="body-md" style="color: var(--color-body-strong); margin-bottom: var(--spacing-xl); font-size: 1.125rem;">
+          Data Analyst & Industrial Engineering student at NIT Jalandhar. Certified in Power BI and skilled in Python, SQL, and formulating AI evaluation rubrics. Passionate about structuring datasets, monitoring KPIs, and designing dashboards.
+        </p>
+        <div class="hero-btn-row" style="display: flex; gap: var(--spacing-md); flex-wrap: wrap;">
+          <a href="#projects" class="btn btn-primary">Explore Selected Work</a>
+          <a href="https://linkedin.com/in/vishwasanalyst" target="_blank" rel="noopener" class="btn btn-secondary">Connect on LinkedIn</a>
+        </div>
+      </div>
+      
+      <!-- Interactive Code/Profile Card -->
+      <div class="hero-visual">
+        <div class="code-window-card">
+          <div class="code-window-header">
+            <div class="code-window-dots">
+              <span class="code-window-dot red"></span>
+              <span class="code-window-dot yellow"></span>
+              <span class="code-window-dot green"></span>
+            </div>
+            <div class="code-window-title">analyst_profile.py</div>
+          </div>
+          <div class="code-window-body">
+            <div class="code-window-lines">1
+2
+3
+4
+5
+6
+7
+8
+9
+10</div>
+            <div class="code-window-content" id="typing-code"><span class="syntax-keyword">class</span> <span class="syntax-function">DataAnalyst</span>:
+    <span class="syntax-keyword">def</span> <span class="syntax-function">__init__</span>(self):
+        self.name = <span class="syntax-string">"Vishwas Srivastava"</span>
+        self.education = <span class="syntax-string">"NIT Jalandhar (B.Tech)"</span>
+        self.credentials = [<span class="syntax-string">"Power BI Certified"</span>]
+        self.core_focus = [
+            <span class="syntax-string">"KPI Dashboards"</span>, 
+            <span class="syntax-string">"Data Quality Rubrics"</span>,
+            <span class="syntax-string">"AI Evaluation Frameworks"</span>
+        ]</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="section bg-surface-soft" style="border-top: 1px solid var(--color-hairline); border-bottom: 1px solid var(--color-hairline);">
+    <div class="container">
+      <div class="grid-2">
+        <div>
+          <span class="caption-uppercase" style="color: var(--color-primary); font-weight: 600;">Operational Focus</span>
+          <h2 class="display-lg" style="margin-top: var(--spacing-xs); margin-bottom: var(--spacing-md);">
+            Translating complex operations into structured analytics.
+          </h2>
+          <p class="body-md" style="margin-bottom: var(--spacing-md);">
+            I am a detail-oriented Data Analyst with a year of hands-on experience structuring datasets, flagging operational bottlenecks, and developing robust reporting frameworks.
+          </p>
+          <p class="body-md" style="margin-bottom: var(--spacing-md);">
+            With an academic background in Industrial and Production Engineering from NIT Jalandhar, I bridge the gap between physical operations and digital intelligence. I construct data schemas, write optimized SQL queries, and design Power BI metrics that empower teams to make data-driven decisions.
+          </p>
+        </div>
+        
+        <!-- Key Stats Display -->
+        <div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--spacing-lg);">
+          <div class="feature-card" style="background-color: var(--color-canvas); text-align: center; justify-content: center;">
+            <div class="display-md" style="color: var(--color-primary); margin-bottom: var(--spacing-xxs);">8,000+</div>
+            <div class="caption-uppercase" style="font-size: 11px;">Data Points Analyzed</div>
+          </div>
+          <div class="feature-card" style="background-color: var(--color-canvas); text-align: center; justify-content: center;">
+            <div class="display-md" style="color: var(--color-primary); margin-bottom: var(--spacing-xxs);">1+ Year</div>
+            <div class="caption-uppercase" style="font-size: 11px;">Analytical Experience</div>
+          </div>
+          <div class="feature-card" style="background-color: var(--color-canvas); text-align: center; justify-content: center;">
+            <div class="display-md" style="color: var(--color-primary); margin-bottom: var(--spacing-xxs);">69%</div>
+            <div class="caption-uppercase" style="font-size: 11px;">Predictive Accuracy</div>
+          </div>
+          <div class="feature-card" style="background-color: var(--color-canvas); text-align: center; justify-content: center;">
+            <div class="display-md" style="color: var(--color-primary); margin-bottom: var(--spacing-xxs);">5+</div>
+            <div class="caption-uppercase" style="font-size: 11px;">Structured Reports</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Capabilities Section -->
+  <section id="capabilities" class="section bg-canvas">
+    <div class="container">
+      <div style="text-align: center; max-width: 600px; margin: 0 auto var(--spacing-xxl) auto;">
+        <span class="caption-uppercase" style="color: var(--color-primary); font-weight: 600;">Capabilities</span>
+        <h2 class="display-lg" style="margin-top: var(--spacing-xs); margin-bottom: var(--spacing-sm);">
+          Technical Competencies & Toolkit
+        </h2>
+        <p class="body-md">
+          A balanced combination of analytics, software tools, operations knowledge, and AI evaluation frameworks.
+        </p>
+      </div>
+
+      <div class="grid-3" style="margin-bottom: var(--spacing-xxl);">
+        <!-- BI & Viz Card -->
+        <div class="feature-card">
+          <svg class="feature-card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 002 2h2a2 2 0 002-2z"/>
+          </svg>
+          <h3 class="title-md">BI & Visualization</h3>
+          <p>Certified Power BI designer. Experienced in building fleet dashboards, resource maps, trend visualizations, and KPI-oriented business intelligence frameworks.</p>
+        </div>
+
+        <!-- Data Ops & Programming Card -->
+        <div class="feature-card">
+          <svg class="feature-card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"/>
+          </svg>
+          <h3 class="title-md">Data Operations & SQL</h3>
+          <p>Proficient in Python, SQL querying, advanced Excel functions, data cleaning inside Jupyter Notebook, and setting up reproducible analytical workflows.</p>
+        </div>
+
+        <!-- AI Evaluation & Quality Assessment Card -->
+        <div class="feature-card">
+          <svg class="feature-card-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
+          </svg>
+          <h3 class="title-md">AI Evaluation & Rubrics</h3>
+          <p>Experienced in writing data quality rubrics, conducting data quality assessments, and modeling datasets for downstream Machine Learning training applications.</p>
+        </div>
+      </div>
+
+      <!-- Comparative Capabilities Grid (Claude Model style) -->
+      <div style="margin-top: var(--spacing-xxl);">
+        <h3 class="display-sm" style="text-align: center; margin-bottom: var(--spacing-xl);">Analytical Modalities</h3>
+        
+        <div class="model-comparison-grid">
+          <!-- BI & Viz Architect -->
+          <div class="model-comparison-card">
+            <div class="model-header">
+              <span class="model-badge featured">Certified</span>
+              <h4 class="model-name">BI & Dashboarding</h4>
+              <p class="model-blurb">Optimized for high-fidelity dashboards and real-time operational monitoring.</p>
+            </div>
+            <div class="model-specs">
+              <div class="model-spec-row">
+                <span class="model-spec-label">Primary Tool</span>
+                <span class="model-spec-value">Power BI</span>
+              </div>
+              <div class="model-spec-row">
+                <span class="model-spec-label">Secondary Tool</span>
+                <span class="model-spec-value">Tableau / Excel</span>
+              </div>
+              <div class="model-spec-row">
+                <span class="model-spec-label">Speed to Insight</span>
+                <span class="model-spec-value">Instantaneous (Live UI)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Data Operations Engine -->
+          <div class="model-comparison-card">
+            <div class="model-header">
+              <span class="model-badge">Core Engine</span>
+              <h4 class="model-name">Data Pipeline Ops</h4>
+              <p class="model-blurb">Built for structuring large operational datasets and querying database systems.</p>
+            </div>
+            <div class="model-specs">
+              <div class="model-spec-row">
+                <span class="model-spec-label">Primary Language</span>
+                <span class="model-spec-value">Python (Pandas, NumPy)</span>
+              </div>
+              <div class="model-spec-row">
+                <span class="model-spec-label">Database Tool</span>
+                <span class="model-spec-value">SQL</span>
+              </div>
+              <div class="model-spec-row">
+                <span class="model-spec-label">Data Capacity</span>
+                <span class="model-spec-value">8,000+ data points</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- AI Quality Validator -->
+          <div class="model-comparison-card">
+            <div class="model-header">
+              <span class="model-badge">Methodology</span>
+              <h4 class="model-name">AI Evaluation</h4>
+              <p class="model-blurb">Configured for training data assessments, rubric development, and prompt tuning.</p>
+            </div>
+            <div class="model-specs">
+              <div class="model-spec-row">
+                <span class="model-spec-label">Framework</span>
+                <span class="model-spec-value">Quality Assessment</span>
+              </div>
+              <div class="model-spec-row">
+                <span class="model-spec-label">AI Focus</span>
+                <span class="model-spec-value">Prompt Eng, LLM Training</span>
+              </div>
+              <div class="model-spec-row">
+                <span class="model-spec-label">Outputs</span>
+                <span class="model-spec-value">Structured Rubrics</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Code/Methodology Showcase -->
+  <section class="section bg-surface-soft" style="border-top: 1px solid var(--color-hairline); border-bottom: 1px solid var(--color-hairline);">
+    <div class="container">
+      <div style="max-width: 600px; margin-bottom: var(--spacing-xl);">
+        <span class="caption-uppercase" style="color: var(--color-primary); font-weight: 600;">Interactive Reference</span>
+        <h2 class="display-md" style="margin-top: var(--spacing-xs);">Query & Analytical Code Showcase</h2>
+      </div>
+
+      <div class="code-window-card">
+        <div class="code-window-header">
+          <div class="code-window-dots">
+            <span class="code-window-dot red"></span>
+            <span class="code-window-dot yellow"></span>
+            <span class="code-window-dot green"></span>
+          </div>
+          <div class="code-window-title">analytical_assets</div>
+        </div>
+        
+        <div class="code-window-tabs">
+          <button class="code-window-tab active" onclick="switchShowcaseTab(this, 'sql')">fleet_metrics.sql</button>
+          <button class="code-window-tab" onclick="switchShowcaseTab(this, 'python')">predictive_modeling.py</button>
+          <button class="code-window-tab" onclick="switchShowcaseTab(this, 'rubric')">data_quality_rubric.json</button>
+        </div>
+
+        <div class="code-window-body">
+          <div class="code-window-lines">1
+2
+3
+4
+5
+6
+7
+8
+9
+10</div>
+          <div class="code-window-content" id="showcase-content"><span class="syntax-keyword">SELECT</span> 
+    driver_id,
+    <span class="syntax-function">COUNT</span>(delivery_id) <span class="syntax-keyword">AS</span> total_deliveries,
+    <span class="syntax-function">SUM</span>(<span class="syntax-keyword">CASE WHEN</span> status = <span class="syntax-string">'Delayed'</span> <span class="syntax-keyword">THEN</span> 1 <span class="syntax-keyword">ELSE</span> 0 <span class="syntax-keyword">END</span>) <span class="syntax-keyword">AS</span> exceptions,
+    <span class="syntax-function">ROUND</span>(<span class="syntax-function">AVG</span>(delivery_time_hours), 2) <span class="syntax-keyword">AS</span> avg_duration
+<span class="syntax-keyword">FROM</span> fleet_operations
+<span class="syntax-keyword">WHERE</span> operational_date >= <span class="syntax-string">'2025-01-01'</span>
+<span class="syntax-keyword">GROUP BY</span> driver_id
+<span class="syntax-keyword">ORDER BY</span> exceptions <span class="syntax-keyword">DESC</span>;</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section (Alternating style: Dark Background) -->
+  <section id="projects" class="section projects-section">
+    <div class="container">
+      <div class="projects-header-block">
+        <span class="caption-uppercase" style="color: var(--color-primary); font-weight: 600;">Projects Showcase</span>
+        <h2 class="display-lg" style="margin-top: var(--spacing-xs); margin-bottom: var(--spacing-sm);">Selected Engineering Work</h2>
+        <p>A review of key analytical applications spanning Power BI dashboard development, Python models, and dataset validation rubrics.</p>
+      </div>
+
+      <div class="projects-filter-tabs">
+        <button class="category-tab active" onclick="filterProjects(this, 'all')">All Projects</button>
+        <button class="category-tab" onclick="filterProjects(this, 'bi')">BI & Dashboards</button>
+        <button class="category-tab" onclick="filterProjects(this, 'python-ai')">Python & AI Quality</button>
+      </div>
+
+      <!-- Project Cards List -->
+      <div id="projects-list">
+        
+        <!-- Project 1 -->
+        <div class="product-mockup-card-dark project-item" data-category="bi">
+          <div class="project-details">
+            <span class="badge-coral">Jan 2025 - Mar 2025</span>
+            <h3 class="title-lg">Power BI Operations Dashboard & KPI System</h3>
+            <div class="project-tags">
+              <span class="badge-pill">Power BI</span>
+              <span class="badge-pill">KPI Monitoring</span>
+              <span class="badge-pill">Fleet Logistics</span>
+              <span class="badge-pill">Data Integration</span>
+            </div>
+            <p class="project-desc">
+              Designed and implemented a unified KPI reporting framework for monitoring vehicle fleet operations, tracking deliveries, and tracking delay exceptions in real time.
+            </p>
+            <ul class="project-bullet-list">
+              <li>Integrated disparate data streams to create a singular BI perspective.</li>
+              <li>Enabled fleet monitoring teams to immediately address logistical bottlenecks.</li>
+              <li>Authored 7 comprehensive structured analytical reports on exceptions.</li>
+              <li>Built data quality checks to safeguard reporting accuracy across dashboard updates.</li>
+            </ul>
+          </div>
+          <!-- Project 1 Visual -->
+          <div class="project-visual">
+            <div class="bi-dashboard-mockup">
+              <div class="dashboard-nav">
+                <span class="dashboard-logo">FLEET OPS ANALYTICS</span>
+                <span class="badge-pill" style="font-size: 8px; padding: 2px 6px;">Live Data</span>
+              </div>
+              <div class="dashboard-grid">
+                <div class="dashboard-kpi-card">
+                  <div class="kpi-label">Active Trucks</div>
+                  <div class="kpi-value">142</div>
+                </div>
+                <div class="dashboard-kpi-card">
+                  <div class="kpi-label">On-Time %</div>
+                  <div class="kpi-value teal">94.8%</div>
+                </div>
+                <div class="dashboard-kpi-card">
+                  <div class="kpi-label">Exceptions</div>
+                  <div class="kpi-value">8</div>
+                </div>
+              </div>
+              <div class="dashboard-chart-area">
+                <div class="chart-bars">
+                  <div class="chart-bar" style="height: 45px;"></div>
+                  <div class="chart-bar" style="height: 30px;"></div>
+                  <div class="chart-bar" style="height: 52px;"></div>
+                  <div class="chart-bar" style="height: 25px;"></div>
+                  <div class="chart-bar" style="height: 38px;"></div>
+                </div>
+                <div class="chart-labels">
+                  <span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="product-mockup-card-dark project-item" data-category="python-ai">
+          <div class="project-details">
+            <span class="badge-coral">Oct 2024 - Dec 2024</span>
+            <h3 class="title-lg">Delivery Performance & AI Evaluation Methodology</h3>
+            <div class="project-tags">
+              <span class="badge-pill">Python</span>
+              <span class="badge-pill">AI Evaluation</span>
+              <span class="badge-pill">Predictive Modeling</span>
+              <span class="badge-pill">Prompt Eng</span>
+            </div>
+            <p class="project-desc">
+              Organized 2,500+ records to structure performance parameters, developing a Python predictive model paired with AI-driven anomaly checking.
+            </p>
+            <ul class="project-bullet-list">
+              <li>Organized and validated unstructured driver record databases.</li>
+              <li>Developed a Python predictive classifier achieving 69% accuracy.</li>
+              <li>Formulated prompt engineering directives to isolate driver behavior anomalies.</li>
+              <li>Drafted AI evaluation metrics to optimize model training datasets.</li>
+            </ul>
+          </div>
+          <!-- Project 2 Visual -->
+          <div class="project-visual">
+            <div class="rubric-mockup">
+              <div style="font-family: var(--font-mono); font-size: 0.6875rem; color: var(--color-on-dark);">
+                [ML MODEL EVALUATION REPORT]
+              </div>
+              <div class="rubric-row">
+                <span class="rubric-label">Accuracy</span>
+                <div class="rubric-bar-container">
+                  <div class="rubric-fill" style="width: 69%;"></div>
+                </div>
+              </div>
+              <div class="rubric-row">
+                <span class="rubric-label">Precision</span>
+                <div class="rubric-bar-container">
+                  <div class="rubric-fill coral" style="width: 65%;"></div>
+                </div>
+              </div>
+              <div class="rubric-row">
+                <span class="rubric-label">Prompt-Fit</span>
+                <div class="rubric-bar-container">
+                  <div class="rubric-fill amber" style="width: 82%;"></div>
+                </div>
+              </div>
+              <table class="rubric-table">
+                <thead>
+                  <tr>
+                    <th>Epoch</th>
+                    <th>Train Loss</th>
+                    <th>Val Accuracy</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>20 / 50</td>
+                    <td>0.452</td>
+                    <td>64.2%</td>
+                  </tr>
+                  <tr>
+                    <td>40 / 50</td>
+                    <td>0.381</td>
+                    <td>68.9%</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="product-mockup-card-dark project-item" data-category="python-ai">
+          <div class="project-details">
+            <span class="badge-coral">Jul 2024 - Sep 2024</span>
+            <h3 class="title-lg">Resource Segmentation & Quality Rubric Development</h3>
+            <div class="project-tags">
+              <span class="badge-pill">Operations Analysis</span>
+              <span class="badge-pill">Rubric Development</span>
+              <span class="badge-pill">Dataset Assessment</span>
+              <span class="badge-pill">Quality Control</span>
+            </div>
+            <p class="project-desc">
+              Segmented and structured a large operational log dataset containing over 8,000 unique records. Engineered assessment rubrics to enforce data quality standards.
+            </p>
+            <ul class="project-bullet-list">
+              <li>Organized 8,000+ distinct operational points into logical resources.</li>
+              <li>Engineered a detailed grading rubric to isolate dataset entries with errors.</li>
+              <li>Created a framework for assessing AI training data accuracy.</li>
+              <li>Reduced label contamination, ensuring cleaner data for downstream ML model pipelines.</li>
+            </ul>
+          </div>
+          <!-- Project 3 Visual -->
+          <div class="project-visual">
+            <div class="bi-dashboard-mockup" style="justify-content: space-around;">
+              <div style="font-family: var(--font-mono); font-size: 0.6875rem; color: var(--color-on-dark);">
+                [RESOURCE SEGMENTATION MATRIX]
+              </div>
+              <div class="rubric-table" style="font-size: 0.6875rem;">
+                <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding: 4px 0;">
+                  <span>Segment Alpha</span>
+                  <span style="color: var(--color-accent-teal);">2,450 Units (Pass)</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding: 4px 0;">
+                  <span>Segment Beta</span>
+                  <span style="color: var(--color-accent-teal);">4,120 Units (Pass)</span>
+                </div>
+                <div style="display: flex; justify-content: space-between; border-bottom: 1px solid rgba(255,255,255,0.05); padding: 4px 0;">
+                  <span>Segment Gamma</span>
+                  <span style="color: var(--color-primary);">1,430 Units (Flags)</span>
+                </div>
+              </div>
+              <div class="kpi-label" style="font-size: 9px; line-height: 1.3;">
+                *Rubric Rule: Any segment with exception rate &gt; 5.0% triggers operational quarantine.
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Professional Experience Timeline -->
+  <section id="experience" class="section bg-canvas">
+    <div class="container">
+      <div style="text-align: center; max-width: 600px; margin: 0 auto var(--spacing-xxl) auto;">
+        <span class="caption-uppercase" style="color: var(--color-primary); font-weight: 600;">Timeline</span>
+        <h2 class="display-lg" style="margin-top: var(--spacing-xs); margin-bottom: var(--spacing-sm);">Professional Journey</h2>
+        <p class="body-md">Work experience, milestones, and education.</p>
+      </div>
+
+      <div class="timeline-block">
+        
+        <!-- Job 1 -->
+        <div class="timeline-item">
+          <div class="timeline-date">Jun 2025 – Jul 2025</div>
+          <div class="timeline-header">
+            <h3 class="timeline-title">Data Analytics & Operations Intern</h3>
+            <span class="timeline-company">NTF (India) Pvt. Ltd., Gurugram, Haryana</span>
+          </div>
+          <p class="timeline-desc">
+            Applied analytical rigor to organize and structure operational datasets for workflows within a fast-paced manufacturing environment.
+          </p>
+          <ul class="timeline-bullets">
+            <li>Structured production records to guarantee data quality and monitor core KPIs.</li>
+            <li>Identified workflow bottlenecks, providing feedback to streamline process cycle times.</li>
+            <li>Authored 5+ reports covering production exceptions and tracking metrics.</li>
+            <li>Conducted data quality assessments and formulated grading rubrics for records.</li>
+            <li>Collaborated across teams to support prompt data execution assignments.</li>
+          </ul>
+        </div>
+
+        <!-- Academic -->
+        <div class="timeline-item">
+          <div class="timeline-date">2023 – Present</div>
+          <div class="timeline-header">
+            <h3 class="timeline-title">Bachelor of Technology (B.Tech) – Industrial & Production Engineering</h3>
+            <span class="timeline-company">National Institute of Technology (NIT), Jalandhar</span>
+          </div>
+          <p class="timeline-desc">
+            Gaining quantitative expertise in engineering methodologies and data-driven management frameworks.
+          </p>
+          <ul class="timeline-bullets">
+            <li>Relevant Coursework: Statistics & Probability, Business Analytics, Database Management Systems, Data Analysis, Production Planning & Control.</li>
+            <li>Consistently applying analytical methodologies and business intelligence toolsets to academic projects.</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section (Coral Callout Card) -->
+  <section id="contact" class="section bg-canvas" style="padding-top: 20px;">
+    <div class="container">
+      <div class="callout-card-coral">
+        <div>
+          <span class="caption-uppercase" style="color: var(--color-canvas); font-weight: 600;">Connect</span>
+          <h2 class="display-lg" style="margin-top: var(--spacing-xs); font-family: var(--font-display);">Initiate a conversation.</h2>
+          <p>
+            Whether you have a data project, want to look at dashboard designs, or want to discuss analytics methodologies, feel free to drop a message.
+          </p>
+          <div style="margin-top: var(--spacing-xl); font-size: 0.9375rem; display: flex; flex-direction: column; gap: var(--spacing-sm);">
+            <div><strong>Email:</strong> vishwassrivastava097@gmail.com</div>
+            <div><strong>Location:</strong> Jalandhar, Punjab, IN</div>
+          </div>
+        </div>
+        
+        <div>
+          <!-- Glassmorphic Form -->
+          <form class="contact-form" id="contact-form" onsubmit="handleContactSubmit(event)">
+            <div class="form-group-row">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="text-input" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="text-input" placeholder="Your email" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" class="text-input" placeholder="How can I help you?" required></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-form-submit">Send Message</button>
+            <div class="form-message" id="form-feedback"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer-section">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <svg class="spike-mark" viewBox="0 0 24 24">
+            <path d="M12 2v20M2 12h20M5 5l14 14M19 5L5 19" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+          <h4 style="margin-top: var(--spacing-xs); color: var(--color-on-dark);">VISHWAS SRIVASTAVA</h4>
+          <p style="font-size: 0.8125rem; margin-top: var(--spacing-xs);">Data Analyst & Operations Engineer</p>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#capabilities">Capabilities</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4>Credentials</h4>
+          <ul>
+            <li>B.Tech (NIT Jalandhar)</li>
+            <li>Power BI Certified</li>
+            <li>AI Evaluation Specialist</li>
+          </ul>
+        </div>
+        
+        <div class="footer-links-col">
+          <h4>Connect</h4>
+          <ul>
+            <li><a href="https://linkedin.com/in/vishwasanalyst" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:vishwassrivastava097@gmail.com">Email Me</a></li>
+            <li><a href="#contact">Contact Form</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <span>&copy; 2026 Vishwas Srivastava. All rights reserved.</span>
+        <span>Designed under the Claude Editorial Theme framework.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
